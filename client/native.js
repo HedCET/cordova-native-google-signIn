@@ -13,7 +13,7 @@ Template.linto.events({
 
             Meteor.cordova_g_plus({ // function added by hedcet:cordova-google-plus-native-sign-in
                 cordova_g_plus: true,
-                profile: ["email", "email_verified", "gender", "locale", "name", "picture", "id"] // customized Meteor.user() pfofile
+                profile: ["email", "email_verified", "gender", "locale", "name", "picture", "sub"] // customized Meteor.user() pfofile
             });
         } else { // signIn through browser
             alert("there is no browser handler");
